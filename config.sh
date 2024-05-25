@@ -272,4 +272,17 @@ CONFIG_PACKAGE_kmod-tcp-bbr=y
 # CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_SHORTCUT_FE_CM is not set
 CONFIG_PACKAGE_vsftpd-alt=y
 CONFIG_VSFTPD_USE_UCI_SCRIPTS=y
+CONFIG_PACKAGE_luci-app-frpc=y
+# my
+CONFIG_PACKAGE_kmod-usb-net-sr9700=y
+CONFIG_PACKAGE_luci-app-kodexplorer=y
+CONFIG_PACKAGE_kmod-usb2=y
+CONFIG_PACKAGE_kmod-usb3=y
+CONFIG_PACKAGE_openssh-sftp-server=y
+CONFIG_PACKAGE_luci-app-openclash=y
+CONFIG_PACKAGE_luci-app-baidupcs-web=y
+CONFIG_PACKAGE_luci-app-airplay2=y
+CONFIG_PACKAGE_luci-app-aria2=y
+CONFIG_PACKAGE_luci-app-qbittorrent=y
+CONFIG_PACKAGE_luci-app-adbyby-plus=y
 EOF
