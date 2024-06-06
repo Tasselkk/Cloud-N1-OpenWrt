@@ -158,7 +158,6 @@ jobs:
             打包日期：${{ env.PACKAGED_OUTPUTDATE }}
             内核版本：${{ env.KERNEL_VERSION }}
             默认IP：192.168.1.1 默认用户名密码： root/password
-            tocken 值：${{ secrets.actions_release }}
             固件名称："${{ env.FIRMWARE }}
             打包路径：${{ env.PACKAGED_OUTPUTPATH }}
         artifacts: "${{ env.FIRMWARE }}/*.*,${{ env.PACKAGED_OUTPUTPATH }}/*.*"
